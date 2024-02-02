@@ -1,8 +1,11 @@
 function drawTriangle(triangleSize) {
 
-   var result = "";
-   for(var i=1; i <=navigator; i++) {
-      result += "*";
+   
+   for(i=0; i <= triangleSize; i++) {
+      asterisks = "";
+      for(j=0;j<=i;j++)
+      asterisks = asterisks+"*";
+   console.log(asterisks);
    }    
 }
 drawTriangle(4);
