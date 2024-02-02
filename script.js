@@ -1,10 +1,8 @@
 function drawTriangle(triangleSize) {
 
-   const counter = 10;
-   let i = 0;
-   console.log(i);
-   while (i< counter) {
-      i++;
-      
-   }
+   var result = "";
+   for(var i=1; i <=navigator; i++) {
+      result += "*";
+   }    
 }
+drawTriangle(4);
