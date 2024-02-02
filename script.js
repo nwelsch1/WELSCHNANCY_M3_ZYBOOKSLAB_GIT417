@@ -1,11 +1,17 @@
 function drawTriangle(triangleSize) {
-
+   let triangle = "";
    
-   for(i=0; i <triangleSize; i++) {
-      asterisks = "";
-      for(j=0;j<=i;j++)
-      asterisks = asterisks+"*";
-   console.log(asterisks);
-   }    
+   for(let i=0; i <triangleSize; i++) {
+      if(i>0) {
+         triangle += "\n";
+      }
+      let ast = "";
+      for(let j = 0; j <= i ; j++) {
+      ast+= "*";
+      }
+      triangle += ast;
+   }
+   console.log(asterisks);    
 }
+
 drawTriangle(4);
