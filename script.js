@@ -1,5 +1,8 @@
 function drawTriangle(triangleSize) {
 
-   // Your solution goes here!
+   const counter = 10;
+   let i = 0;
+   console.log(i);
+   i++;
    
 }
