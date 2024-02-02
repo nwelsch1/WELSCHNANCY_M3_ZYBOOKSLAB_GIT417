@@ -11,7 +11,7 @@ function drawTriangle(triangleSize) {
       }
       triangle += ast;
    }
-   console.log(asterisks);    
+   console.log(triangle);    
 }
 
 drawTriangle(4);
